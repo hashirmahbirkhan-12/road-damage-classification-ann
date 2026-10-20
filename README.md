@@ -31,12 +31,6 @@ Test accuracy: **57.39%**, test loss: 0.9104.
 
 ![Sample predictions](results/sample_predictions.png)
 
-## Limitations
-- A plain ANN on flattened 64 x 64 pixels ignores the spatial structure of images, which limits accuracy. A convolutional network would be a natural next step.
-- Crack and Pothole images are mostly greyscale while Surface Erosion images are in colour, so the model may partly rely on colour.
-- Some classes overlap visually (for example, severe cracking versus potholes), which shows up in the confusion matrix.
-- The dataset is small (1,530 images), so results vary between runs.
-
 ## How to run
 1. Install the requirements: `pip install -r requirements.txt`
 2. Download the dataset ZIP from the Mendeley link and place it in the same folder as the notebook.
