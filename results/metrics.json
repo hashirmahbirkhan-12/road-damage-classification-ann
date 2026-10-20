@@ -1,0 +1,42 @@
+{
+  "test_accuracy": 0.573913037776947,
+  "test_loss": 0.9104498624801636,
+  "classes": [
+    "Crack",
+    "Pothole",
+    "Surface Erosion"
+  ],
+  "classification_report": {
+    "Crack": {
+      "precision": 0.494949494949495,
+      "recall": 0.6805555555555556,
+      "f1-score": 0.5730994152046783,
+      "support": 72.0
+    },
+    "Pothole": {
+      "precision": 0.5625,
+      "recall": 0.45,
+      "f1-score": 0.5,
+      "support": 60.0
+    },
+    "Surface Erosion": {
+      "precision": 0.6746987951807228,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.6187845303867403,
+      "support": 98.0
+    },
+    "accuracy": 0.5739130434782609,
+    "macro avg": {
+      "precision": 0.5773827633767393,
+      "recall": 0.5673280423280423,
+      "f1-score": 0.5639613151971395,
+      "support": 230.0
+    },
+    "weighted avg": {
+      "precision": 0.5891601981046716,
+      "recall": 0.5739130434782609,
+      "f1-score": 0.5734958342288583,
+      "support": 230.0
+    }
+  }
+}
